@@ -256,7 +256,7 @@
   }
   
   @media screen and (max-width: 860px) {
-    .navbar .all-links {
+    .navbar .links {
       position: fixed;
       left: -100%;
       width: 300px;
@@ -267,7 +267,7 @@
       transition: left 0.3s ease;
     }
   
-    .navbar .all-links li {
+    .navbar .links li {
       font-size: 18px;
     }
     .navbar .menu{
