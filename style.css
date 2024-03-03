@@ -45,10 +45,15 @@
     margin-left: 0;
   }
 
-  .navbar span{
+  .navbar .menu {
+    display:none;
+    justify-content: center;
+    align-items:center;
+  }
+  .navbar .menu span{
     color: #ddd;
     margin-right:30px;
-    display:none;
+    display:inline-block;
   }
   
   header a {
@@ -265,8 +270,8 @@
     .navbar .all-links li {
       font-size: 18px;
     }
-    .navbar span{
-        display:block;
+    .navbar .menu{
+        display:flex;
     }
     section > p {
       text-align: center;
